@@ -1,0 +1,20 @@
+{
+    "name": "webdevcave/pharkus",
+    "description": "Routing through annotations",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webdevcave\\Pharkus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Alberto B. Carucce",
+            "email": "carlos.carucce@weareglobals.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    }
+}
