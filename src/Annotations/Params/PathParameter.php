@@ -8,8 +8,8 @@ use Attribute;
 class PathParameter
 {
     public function __construct(
-        public string $name,
-        public ?string $validator = null,
+        public readonly string $name,
+        public readonly ?string $validator = null,
     )
     {
     }

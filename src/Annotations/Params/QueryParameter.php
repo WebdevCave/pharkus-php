@@ -8,8 +8,8 @@ use Attribute;
 class QueryParameter
 {
     public function __construct(
-        public string $name,
-        public ?string $validator,
+        public readonly string $name,
+        public readonly ?string $validator,
     )
     {
     }
