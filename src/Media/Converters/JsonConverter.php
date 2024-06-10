@@ -3,6 +3,7 @@
 namespace Webdevcave\Pharkus\Media\Converters;
 
 use Exception;
+use Webdevcave\Pharkus\Exceptions\DataConversionException;
 use Webdevcave\Pharkus\Http\Message\Response;
 use Webdevcave\Pharkus\Media\MediaConverterInterface;
 
@@ -20,7 +21,7 @@ class JsonConverter implements MediaConverterInterface
         $data = json_decode($body, true);
 
         if(json_last_error() !== JSON_ERROR_NONE) {
-            throw new Exception(json_last_error_msg());
+            throw new DataConversionException(json_last_error_msg());
         }
 
         return $data;
@@ -34,7 +35,7 @@ class JsonConverter implements MediaConverterInterface
         $body = json_encode($response->getEntity());
 
         if ($body === false) {
-            throw new Exception(json_last_error_msg());
+            throw new DataConversionException(json_last_error_msg());
         }
 
         return $body;
