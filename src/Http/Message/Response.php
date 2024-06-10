@@ -31,7 +31,10 @@ class Response
      */
     public function entity(object|array|null $entity): static
     {
-        $this->entity = (object) $entity;
+        if (is_array($entity)) {
+            $this->entity = (object) $entity;
+        }
+
         return $this;
     }
 
