@@ -1,11 +1,11 @@
 <?php
 
-namespace Webdevcave\Pharkus\Media\Converters;
+namespace Webdevcave\Pharkus\Routing\Media\Converters;
 
 use Exception;
 use Webdevcave\Pharkus\Exceptions\DataConversionException;
 use Webdevcave\Pharkus\Http\Message\Response;
-use Webdevcave\Pharkus\Media\MediaConverterInterface;
+use Webdevcave\Pharkus\Routing\Media\MediaConverterInterface;
 
 class JsonConverter implements MediaConverterInterface
 {

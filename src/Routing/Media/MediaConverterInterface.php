@@ -1,6 +1,6 @@
 <?php
 
-namespace Webdevcave\Pharkus\Media;
+namespace Webdevcave\Pharkus\Routing\Media;
 
 use Exception;
 use Webdevcave\Pharkus\Exceptions\DataConversionException;
