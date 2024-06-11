@@ -1,9 +1,9 @@
 <?php
 
-namespace Webdevcave\Pharkus\Annotations;
+namespace Webdevcave\Pharkus\Annotations\Routing;
 
 use Attribute;
-use Webdevcave\Pharkus\Media\MediaType;
+use Webdevcave\Pharkus\Routing\Media\MediaType;
 
 #[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION)]
 class Produces

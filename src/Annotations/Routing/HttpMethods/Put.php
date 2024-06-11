@@ -1,6 +1,6 @@
 <?php
 
-namespace Webdevcave\Pharkus\Annotations\HttpMethods;
+namespace Webdevcave\Pharkus\Annotations\Routing\HttpMethods;
 
 use Attribute;
 

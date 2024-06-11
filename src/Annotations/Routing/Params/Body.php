@@ -1,6 +1,6 @@
 <?php
 
-namespace Webdevcave\Pharkus\Annotations\Params;
+namespace Webdevcave\Pharkus\Annotations\Routing\Params;
 
 use Attribute;
 
