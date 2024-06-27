@@ -14,7 +14,9 @@
         }
     ],
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+        "webdevcave/directory-crawler": "^1.1",
+        "webdevcave/simple-cache": "^1.0"
     },
     "suggest": {
         "ext-simplexml": "*"
